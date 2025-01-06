@@ -9,6 +9,7 @@ public class Main {
         ProcessBuilder proceso;
 
         //Instanciamos en el nuevo objeto la ruta del proceso que queremos lanzar
+        //esta hecho en windows
         proceso = new ProcessBuilder("C:/Windows/System32/calc.exe");
         try{
             //Indicamos el comienzo con proceso.start() ejecuta el contenido
